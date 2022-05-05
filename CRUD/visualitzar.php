@@ -1,5 +1,5 @@
 <?php
-require 'vendor/autoload.php';
+require '../vendor/autoload.php';
 use Laminas\Ldap\Ldap;
 $domini = 'dc=fjeclot,dc=net';
 $opcions = [
