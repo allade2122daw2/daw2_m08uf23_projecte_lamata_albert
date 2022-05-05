@@ -16,7 +16,7 @@ use Laminas\Ldap\Ldap;
     
     <body>
     <header>
-		<a href="http://zend-alcoca.fjeclot.net/projecte/menu.html"> Inici </a><br>
+		<a href="http://zend-allade.fjeclot.net/projecte/menu.html"> Inici </a><br>
 		<h2>Modificar Usuari</h2>
     </header>
         <div>
@@ -32,7 +32,7 @@ use Laminas\Ldap\Ldap;
                     $dn = 'uid=' . $uid . ',ou=' . $ou . ',dc=fjeclot,dc=net';
 
                     $opcions = [
-                        'host' => 'zend-alcoca.fjeclot.net',
+                        'host' => 'zend-allade.fjeclot.net',
                         'username' => 'cn=admin,dc=fjeclot,dc=net',
                         'password' => 'fjeclot',
                         'bindRequiresDn' => true,
@@ -56,7 +56,7 @@ use Laminas\Ldap\Ldap;
             ?>
                 <div>
                     <div>
-                        <form action="http://zend-alcoca.fjeclot.net/projecte/modificar_client.php" method="POST" autocomplete="off">
+                        <form action="http://zend-allade.fjeclot.net/projecte/modificar.php" method="POST" autocomplete="off">
                         <br><input type="hidden" name="method" value="PUT" class="noMostrar"><br>
                             Unitat organitzativa: <input type="text" name="ou" placeholder="Unitat Organitzativa" required /><br><br>
                             Usuari: <input type="text" name="uid" placeholder="Usuari" required /> <br><br>

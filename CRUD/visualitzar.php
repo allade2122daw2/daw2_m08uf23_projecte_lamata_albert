@@ -3,7 +3,7 @@ require 'vendor/autoload.php';
 use Laminas\Ldap\Ldap;
 $domini = 'dc=fjeclot,dc=net';
 $opcions = [
-    'host' => 'zend-alcoca.fjeclot.net',
+    'host' => 'zend-allade.fjeclot.net',
     'username' => "cn=admin,$domini",
     'password' => 'fjeclot',
     'bindRequiresDn' => true,

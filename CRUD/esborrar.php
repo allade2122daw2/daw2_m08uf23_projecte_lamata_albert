@@ -27,7 +27,7 @@ use Laminas\Ldap\Ldap;
                 $dn = 'uid=' . $uid . ',ou=' . $unorg . ',dc=fjeclot,dc=net';
 
                 $opcions = [
-                    'host' => 'zend-alcoca.fjeclot.net',
+                    'host' => 'zend-allade.fjeclot.net',
                     'username' => 'cn=admin,dc=fjeclot,dc=net',
                     'password' => 'fjeclot',
                     'bindRequiresDn' => true,
@@ -48,7 +48,7 @@ use Laminas\Ldap\Ldap;
         ?>
             <div>
                 <div>
-                    <form action="http://zend-alcoca.fjeclot.net/projecte/esborrar_client.php" method="POST" autocomplete="off">
+                    <form action="http://zend-allade.fjeclot.net/projecte/esborrar.php" method="POST" autocomplete="off">
                         <input type="hidden" name="method" value="DELETE" class="noMostrar"><br><br>
                         <input type="text" name="ou" placeholder="Unitat Organitzativa" required /><br><br>
                         <input type="text" name="usr" placeholder="Usuari" required /><br><br>

@@ -6,7 +6,7 @@ use Laminas\Ldap\Ldap;
 ini_set('display_errors', 0);
 if ($_POST['contrasenya'] && $_POST['usuari']) {
     $opcions = [
-        'host' => 'zend-alcoca.fjeclot.net',
+        'host' => 'zend-allade.fjeclot.net',
         'username' => "cn=admin,dc=fjeclot,dc=net",
         'password' => 'fjeclot',
         'bindRequiresDn' => true,
@@ -33,7 +33,7 @@ if ($_POST['contrasenya'] && $_POST['usuari']) {
 </head>
 
 <body>
-    <a href="http://zend-alcoca.fjeclot.net/projecte/index.php">Torna a la pàgina inicial</a>
+    <a href="http://zend-allade.fjeclot.net/projecte/index.html">Torna a la pàgina inicial</a>
 </body>
 
 </html>

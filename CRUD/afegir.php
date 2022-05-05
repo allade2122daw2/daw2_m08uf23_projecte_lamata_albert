@@ -27,7 +27,7 @@ $objcl = array('inetOrgPerson', 'organizationalPerson', 'person', 'posixAccount'
 #Afegint la nova entrada
 $domini = 'dc=fjeclot,dc=net';
 $opcions = [
-    'host' => 'zend-alcoca.fjeclot.net',
+    'host' => 'zend-allade.fjeclot.net',
     'username' => "cn=admin,$domini",
     'password' => 'fjeclot',
     'bindRequiresDn' => true,
